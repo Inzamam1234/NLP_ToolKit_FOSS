@@ -1,0 +1,50 @@
+<!doctype html>
+<main class="main">
+<header>
+<h1>T5 — Summarize / Paraphrase / Grammar</h1>
+</header>
+
+
+<section class="columns">
+<!-- Summarize Column -->
+<div class="col" id="col-summarize">
+<h3>Summarize</h3>
+<textarea id="input-summarize" placeholder="Paste text to summarize..."></textarea>
+<div class="controls">
+<label>Max length <input type="number" id="sum-max" value="150" min="10" max="1024"></label>
+<label>Min length <input type="number" id="sum-min" value="20" min="1" max="512"></label>
+<button data-task="summarize" class="run-btn">Run</button>
+</div>
+<pre id="out-summarize" class="output"></pre>
+</div>
+
+
+<!-- Paraphrase Column -->
+<div class="col" id="col-paraphrase">
+<h3>Paraphrase</h3>
+<textarea id="input-paraphrase" placeholder="Paste sentence(s) to paraphrase..."></textarea>
+<div class="controls">
+<label>Return sequences <input type="number" id="par-num" value="1" min="1" max="5"></label>
+<button data-task="paraphrase" class="run-btn">Run</button>
+</div>
+<pre id="out-paraphrase" class="output"></pre>
+</div>
+
+
+<!-- Grammar Column -->
+<div class="col" id="col-grammar">
+<h3>Grammar Correction</h3>
+<textarea id="input-grammar" placeholder="Paste text to correct grammar..."></textarea>
+<div class="controls">
+<button data-task="grammar" class="run-btn">Run</button>
+</div>
+<pre id="out-grammar" class="output"></pre>
+</div>
+</section>
+</main>
+</div>
+
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
