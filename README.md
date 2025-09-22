@@ -15,6 +15,8 @@ The model is fine-tuned using **Parameter-Efficient Fine-Tuning (PEFT)** techniq
 - Fine-tuned for **Summarization, Paraphrasing, and Grammar Correction**.  
 - Implemented with **LoRA for PEFT**, making training efficient on limited hardware.  
 - Easy-to-use inference pipeline with Hugging Face `transformers`.  
+- **Flask backend** for API endpoints serving the model.  
+- **HTML/CSS/JS frontend** for easy web-based interaction.  
 - Scalable and extendable for other NLP tasks.  
 
 ---
@@ -24,7 +26,8 @@ The model is fine-tuned using **Parameter-Efficient Fine-Tuning (PEFT)** techniq
 - **Frameworks Used:**  
   - [Hugging Face Transformers](https://huggingface.co/transformers/)  
   - [PEFT](https://huggingface.co/docs/peft/index) (for LoRA)  
-  - [Datasets](https://huggingface.co/docs/datasets/)  
+  - [Datasets](https://huggingface.co/docs/datasets/)
+  - [Flask](https://flask.palletsprojects.com/) for backend API 
 - **Fine-tuning Method:** LoRA-based PEFT → reduces trainable parameters while keeping most of the base model frozen.  
 - **Tasks:**  
   - Summarization → trained on text-summary pairs.  
