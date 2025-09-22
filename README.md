@@ -44,6 +44,5 @@ The model is fine-tuned using **Parameter-Efficient Fine-Tuning (PEFT)** techniq
 ---
 
 ## 🔮 Future Work  
-- Extend toolkit to handle more tasks (e.g., style transfer, question generation).  
-- Provide a simple **Streamlit web interface** for real-time demos.  
+- Extend toolkit to handle more tasks (e.g., style transfer, question generation).   
 - Experiment with larger models (e.g., T5-large, Flan-T5). 
